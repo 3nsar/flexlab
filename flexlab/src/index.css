@@ -2,3 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  html {
+      @apply bg-neutral-950;
+      @apply text-gray-100;
+  }
+}
