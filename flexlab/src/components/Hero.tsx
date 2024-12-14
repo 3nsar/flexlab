@@ -12,8 +12,8 @@ export const Hero = () => {
                     We deliver your first product within six weeks, efficiently and affordably.
                 </p>
                 <div className="flex mt-5">
-                    <button className='bg-green-400 py-2 px-3 rounded'>Click me</button>
-                    <button className='text-green-400 py-2 px-3  ml-5 rounded border border-green-400'>Contact us</button>
+                    <button className='bg-green-500 py-2 px-3 rounded'>Click me</button>
+                    <button className='text-green-500 py-2 px-3  ml-5 rounded border border-green-500'>Contact us</button>
                 </div>
             </div>
         </div>

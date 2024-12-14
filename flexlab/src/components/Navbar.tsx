@@ -23,7 +23,7 @@ const Navbar = () => {
                   <li><a href="#">Pricing</a></li>
                 </ul>
                 <div className=" hidden lg:flex justify-center items-center space-x-5 mx-3">
-                   <button className='text-green-400 py-2 px-3  ml-5 rounded border border-green-400'>Book a call</button>
+                   <button className='text-green-500 py-2 px-3  ml-5 rounded border border-green-500'>Book a call</button>
                 </div>
                 <div className="lg:hidden md:flex flex-col justify-end">
                   <button onClick={toggleNavbar}>
