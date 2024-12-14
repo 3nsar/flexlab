@@ -10,11 +10,11 @@ const Navbar = () => {
   }
 
   return (
-    <nav className=' sticky top-0 z-50 py-3 backdrop-blur-lg border-b border-neutral-700/80 '>
+    <nav className=' sticky top-0 z-50 py-3 backdrop-blur-lg border-b border-neutral-700/50'>
         <div className=' text-gray-200 container px-4 mx-auto relative text-sm'>
             <div className="flex justify-between items-center">
                 <div className="flex justify-center items-center space-x-5 mx-3">
-                    <span className='text-xl tracking-tight text-white'>Flexlab</span>
+                    <span className='text-xl tracking-tight '>Flexlab</span>
                 </div>
                 <ul className='hidden lg:flex ml-14 space-x-12 '>
                   <li> <a href="#">Home</a></li>
@@ -23,9 +23,7 @@ const Navbar = () => {
                   <li><a href="#">Pricing</a></li>
                 </ul>
                 <div className=" hidden lg:flex justify-center items-center space-x-5 mx-3">
-                <a href="#" className='py-2 px-3 text-center rounded-md bg-gradient-to-r from-teal-600 via-teal-500 to-teal-400 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-teal-300'>
-                    Kontaktiere uns
-                  </a>
+                   <button className='text-green-400 py-2 px-3  ml-5 rounded border border-green-400'>Book a call</button>
                 </div>
                 <div className="lg:hidden md:flex flex-col justify-end">
                   <button onClick={toggleNavbar}>
