@@ -1,14 +1,13 @@
 import React from 'react'
-import Navbar from './Navbar'
+
 
 export const Hero = () => {
   return (
-    <div className='text-white bg-neutral-950'>
-        <Navbar/>
+    <div>
         <div className='min-h-screen flex items-center justify-start ml-20'>
             <div>
                 <h1 className='text-2xl lg:text-7xl md:text-4xl'>Build MVP in six week<br /> Within your budget</h1>
-                <p className=' text-xl lg:text-2xl mt-5 text-gray-300'>
+                <p className=' text-xl lg:text-2xl mt-5 text-gray-400'>
                     Struggling to hire the right team? Or finding agencies too costly? <br />
                     We deliver your first product within six weeks, efficiently and affordably.
                 </p>
