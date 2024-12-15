@@ -9,29 +9,34 @@ const Founders = () => {
         <p className='text-base lg:text-lg mt-5 text-gray-400'>We deliver results through a structured process. Here's how we've made an impact:</p>
         <div className='flex'>
             <div>
-                <div className='flex justify-center items-center justify-items-center mr-10 mx-auto'>
+                <div className='flex justify-center items-center justify-items-center mr-14 mx-auto'>
                   <h1 className='text-2xl lg:text-7xl font-semibold mt-5'>08</h1>
-                  <p className='text-2xl'><FaLongArrowAltUp/></p>
+                  <p className="text-2xl text-green-500"><FaLongArrowAltUp/></p>
                 </div>
-                <p className='text-base lg:text-lg mt-2 text-gray-400 text-center'>MVP<br/>Completed</p>
+                <p className='text-base lg:text-lg mt-2 text-gray-400 text-center mr-14 mx-auto'>MVP<br/>Completed</p>
             </div>
 
             <div>
-                <div className='flex justify-center items-center justify-items-center mr-10 mx-auto'>
+                <div className='flex justify-center items-center justify-items-center mr-14 mx-auto '>
                   <h1 className='text-2xl lg:text-7xl font-semibold mt-5'>25</h1>
-                  <p className='text-2xl'><FaLongArrowAltUp/></p>
+                  <p className='text-2xl text-green-500'><FaLongArrowAltUp/></p>
                 </div>
-                <p className='text-base lg:text-lg mt-2 text-gray-400 text-center'>Total Happy<br/>Clients</p>
+                <p className='text-base lg:text-lg mt-2 text-gray-400 text-center mr-14 mx-auto'>Total Happy<br/>Clients</p>
             </div>
 
             <div>
                 <div className='flex justify-center items-center justify-items-center mx-auto'>
                   <h1 className='text-2xl lg:text-7xl font-semibold mt-5'>08</h1>
-                  <p className='text-2xl'><FaLongArrowAltUp/></p>
+                  <p className='text-2xl text-green-500'><FaLongArrowAltUp/></p>
                 </div>
-                <p className='text-base lg:text-lg mt-2 text-gray-400 text-center'>MVP<br/>Completed</p>
+                <p className='text-base lg:text-lg mt-2 text-gray-400 text-center'>Startups<br/>Funded</p>
             </div>
 
+        </div>
+        <div className='bg-gray-800 mt-10'>
+          <div className='flex'>
+              <p>Fouun</p>
+          </div>
         </div>
 
         
