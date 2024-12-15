@@ -3,6 +3,7 @@ import { Hero } from './components/Hero'
 import Navbar from './components/Navbar'
 import About from './components/About'
 import Founders from './components/Founders'
+import Weeks from './components/Weeks'
 import './index.css'
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Carousel/>
         <About/>
         <Founders/>
+        <Weeks/>
     </>
   )
 }
