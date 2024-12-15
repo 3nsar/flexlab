@@ -1,6 +1,10 @@
 import React from 'react'
 import { LuRocket } from "react-icons/lu";
 import { FaLongArrowAltUp } from "react-icons/fa";
+import { PiLetterCirclePFill } from "react-icons/pi";
+import { RiTriangleFill } from "react-icons/ri";
+
+
 
 const Founders = () => {
   return (
@@ -33,9 +37,15 @@ const Founders = () => {
             </div>
 
         </div>
-        <div className='bg-gray-800 mt-10'>
-          <div className='flex'>
-              <p>Fouun</p>
+        <div className='bg-gray-900 mt-10 p-4 rounded-lg'>
+          <div className='flex justify-center items-center mx-auto'>
+              <p className='lg:text-4xl mr-2'><PiLetterCirclePFill/></p>
+              <p className='lg:text-xl font-semibold'>Product Hunt</p>
+
+              <div className='flex flex-col ml-5'>
+                  <p className='text-gray-200'><RiTriangleFill/></p>
+                  <p>23</p>
+              </div>
           </div>
         </div>
 
