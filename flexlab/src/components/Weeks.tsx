@@ -18,7 +18,7 @@ const Weeks = () => {
 
         <div className=' bg-zinc-950 mt-10 p-6 rounded-lg lg:w-1/2 border border-neutral-800'>
             <h1 className='text-2xl font-semibold'>How We Deliver in Six Weeks 🚀</h1>
-            <p className='text-lg mt-5 text-gray-400'>Our process is simple: We start with a call, prioritize the essential features, and focus on what we can build within six weeks. 
+            <p className='text-lg mt-5 text-gray-400'>Our process is simple: We start with a call, prioritize the essential features, and focus on what we can build within six weeks.<br />
                                                         By the end, you'll have a working MVP ready for market testing. If you're happy with the results 
                                                        (and you will be), we'll continue improving through additional six-week cycles.
             </p>
