@@ -7,13 +7,16 @@ import Weeks from './components/Weeks'
 import Timeline from './components/Timeline'
 import './index.css'
 import Techstack from './components/Techstack'
+import Services from './components/Services'
+import Testimonials from './components/Testimonials'
+import Faq from './components/Faq'
 
 function App() {
   
 
   return (
     <>
-         <Navbar/>
+        <Navbar/>
         <Hero/>
         <Carousel/>
         <About/>
@@ -21,6 +24,9 @@ function App() {
         <Weeks/>
         <Timeline/>
         <Techstack/>
+        <Services />
+        <Testimonials/>
+        <Faq/>
     </>
   )
 }
