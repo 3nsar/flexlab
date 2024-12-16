@@ -6,6 +6,7 @@ import Founders from './components/Founders'
 import Weeks from './components/Weeks'
 import Timeline from './components/Timeline'
 import './index.css'
+import Techstack from './components/Techstack'
 
 function App() {
   
@@ -19,6 +20,7 @@ function App() {
         <Founders/>
         <Weeks/>
         <Timeline/>
+        <Techstack/>
     </>
   )
 }
