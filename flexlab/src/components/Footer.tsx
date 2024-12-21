@@ -14,6 +14,18 @@ const Footer = () => {
         <li>Menu</li>
         <li>Contact</li>
       </ul>
+
+      <ul className="bg-green-500">
+        <li>Social Media</li>
+        <li>Menu</li>
+        <li>Contact</li>
+      </ul>
+
+      <ul className="bg-green-500">
+        <li>Social Media</li>
+        <li>Menu</li>
+        <li>Contact</li>
+      </ul>
     </div>
   )
 }
