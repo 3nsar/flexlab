@@ -2,30 +2,16 @@
 
 const Footer = () => {
   return (
-    <div className="min-h-10 flex justify-center text-left">
-      <ul className="bg-green-500">
+    <div className="h-52 w-full flex justify-center justify-items-center text-left ">
+
+      <h1>Flexlab</h1>
+
+      <ul className="">
         <li>Social Media</li>
         <li>Menu</li>
         <li>Contact</li>
       </ul>
 
-      <ul className="bg-green-500">
-        <li>Social Media</li>
-        <li>Menu</li>
-        <li>Contact</li>
-      </ul>
-
-      <ul className="bg-green-500">
-        <li>Social Media</li>
-        <li>Menu</li>
-        <li>Contact</li>
-      </ul>
-
-      <ul className="bg-green-500">
-        <li>Social Media</li>
-        <li>Menu</li>
-        <li>Contact</li>
-      </ul>
     </div>
   )
 }
