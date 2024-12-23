@@ -16,7 +16,7 @@ const About = () => {
                 We’ll deliver your product in six weeks, allowing you to quickly validate your idea.
             </p>
         </div>
-        <div className="flex mt-10">
+        <div className="flex flex-col sm:flex-row mt-10 gap-4">
             <div className=' mr-10 bg-zinc-950 h-64 w-96 border border-neutral-800 rounded-2xl
             hover:bg-gradient-to-b hover:from-zinc-950 hover:via-zinc-950 hover:to-green-950
              transition-all duration-700 ease-in-out'>
