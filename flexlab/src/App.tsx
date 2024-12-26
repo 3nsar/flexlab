@@ -11,7 +11,7 @@ import Services from './components/Services'
 import Testimonials from './components/Testimonials'
 import Faq from './components/Faq'
 import Footer from './components/Footer'
-import Contact from './components/Contact'
+
 
 
 
@@ -32,7 +32,7 @@ function App() {
         <Testimonials/>
         <Faq/>
         <Footer/>
-        <Contact/>
+        
     </>
   )
 }
