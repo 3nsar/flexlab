@@ -17,10 +17,10 @@ const Navbar = () => {
                     <span className='text-xl tracking-tight '>Flexlab</span>
                 </div>
                 <ul className='hidden lg:flex ml-14 space-x-12 '>
-                  <li> <a href="#">Home</a></li>
-                  <li><a href="#">Contact</a></li>
-                  <li><a href="#">Contact</a></li>
-                  <li><a href="#">Pricing</a></li>
+                  <li> <a href="#">How it works</a></li>
+                  <li><a href="#">Techstack</a></li>
+                  <li><a href="#">Pricings</a></li>
+                  <li><a href="#">FAQs</a></li>
                 </ul>
                 <div className=" hidden lg:flex justify-center items-center space-x-5 mx-3">
                    <button className='text-green-500 py-2 px-3  ml-5 rounded border border-green-500'>Book a call</button>
