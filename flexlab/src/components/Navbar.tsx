@@ -21,6 +21,9 @@ const Navbar = () => {
                   <li><a href="#">Techstack</a></li>
                   <li><a href="#">Pricings</a></li>
                   <li><a href="#">FAQs</a></li>
+                  <li><a href="#">Techstack</a></li>
+                  <li><a href="#">Pricings</a></li>
+                  <li><a href="#">FAQs</a></li>
                 </ul>
                 <div className=" hidden lg:flex justify-center items-center space-x-5 mx-3">
                    <button className='text-green-500 py-2 px-3  ml-5 rounded border border-green-500'>Book a call</button>
