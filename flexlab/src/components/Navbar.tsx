@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import {Menu, X} from 'lucide-react';
-import { TbCircleLetterF } from "react-icons/tb";
+
 
 const Navbar = () => {
 
@@ -15,7 +15,7 @@ const Navbar = () => {
         <div className=' text-gray-200 container px-4 mx-auto relative text-sm'>
             <div className="flex justify-between items-center">
                 <div className="flex justify-center items-center space-x-5 mx-3">
-                    <span className='text-3xl tracking-tight bg-green-500 '><TbCircleLetterF/></span>
+                    <span className='text-xl tracking-tight '>Flexlab</span>
                 </div>
                 <ul className='hidden lg:flex ml-14 space-x-12 '>
                   <li> <a href="#">How it works</a></li>
