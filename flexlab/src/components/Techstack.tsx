@@ -3,6 +3,8 @@ import { RiTriangleFill } from "react-icons/ri";
 import { FaPen } from "react-icons/fa";
 import { MdKeyboardDoubleArrowDown } from "react-icons/md";
 import figma from "../assets/figma.png"
+import next from "../assets/nextjs.png"
+import react from "../assets/react.svg"
 
 const Techstack = () => {
   return (
@@ -44,12 +46,12 @@ const Techstack = () => {
                 </div>
                 <div className='flex flex-col sm:flex-row mt-5 items-center justify-center text-center gap-4 px-4'>
                     <div className='bg-neutral-700 border border-gray-500 py-5 px-8 sm:px-16 rounded-lg w-full sm:w-auto'>
-                        <img src={figma} alt="figma" className='w-16 h-16 object-contain mx-auto'/>
+                        <img src={react} alt="figma" className='w-16 h-16 object-contain mx-auto'/>
                         <p className='mt-4 text-xl font-semibold'>React</p>
                     </div>
 
                     <div className='bg-neutral-700 border border-gray-500 py-5 px-8 sm:px-16 rounded-lg w-full sm:w-auto'>
-                        <img src={figma} alt="figma" className='w-16 h-16 object-contain mx-auto'/>
+                        <img src={next} alt="figma" className='w-16 h-16 object-contain mx-auto'/>
                         <p className='mt-4 text-xl font-semibold'>Next Js</p>
                     </div>
                 </div>
