@@ -42,7 +42,7 @@ const Navbar = () => {
                     <li className='py-4'><a href="#">Pricing</a></li>
                   </ul>
                   <div className="flex flex-col justify-center ">
-                  <a href="#" className='py-1 px-2 text-center rounded-md bg-gradient-to-r from-teal-600 via-teal-500 to-teal-400 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-teal-300'>
+                  <a href="#" className='py-1 px-2 text-center rounded-md bg-green-500'>
                     Kontaktiere uns
                   </a>
 
